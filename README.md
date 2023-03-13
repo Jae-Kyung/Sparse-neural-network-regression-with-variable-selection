@@ -33,6 +33,8 @@ R^{\lambda}(\theta) = \frac{1}{2N} \left(y_i - \mathsf{f}_{\theta}(x_i) \right)^
 $$
 
 where $w^j = (w_{1j}, \ldots, w_{mj})$ is the weight vector associated to the $j$ th input.
+
+
 The $\lambda = (\lambda_1, \lambda_2)$ is the tuning parameter vector. 
 
 - $\lambda_1$ penalizes the effect of nodes to output and enables neural network remove unnecessary nodes as $\lambda_1$ increases.
@@ -42,6 +44,7 @@ The $\lambda = (\lambda_1, \lambda_2)$ is the tuning parameter vector.
 The sparse B-spline neural network estimator is given by 
 
 $$
-\hat f = \mathsf{f}_{\hat \theta}, \quad \text{argmin}_{\theta} R^{\lambda}(\theta).
+\hat f = \mathsf{f}_{\hat \theta}, \quad \hat \theta = \text{argmin}_{\theta} R^{\lambda}(\theta).
 $$
 
+[BAF.pdf](https://github.com/Jae-Kyung/Sparse-neural-network-regression-with-variable-selection/files/10957660/BAF.pdf)
