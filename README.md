@@ -47,5 +47,8 @@ $$
 \hat f = \mathsf{f}_{\hat \theta}, \quad \hat \theta = \text{argmin}_{\theta} R^{\lambda}(\theta).
 $$
 
-![BAF-1](https://user-images.githubusercontent.com/84615460/224712089-2af5f480-025a-4292-8cbb-fe4bda317608.png, width="60" height="60")
-![penalty-1](https://user-images.githubusercontent.com/84615460/224712132-1d2bf953-1794-418a-bd80-cc83b5d215bb.png){: width="60" height="60"}
+#### B-spline activation function
+![BAF-1](https://user-images.githubusercontent.com/84615460/224712089-2af5f480-025a-4292-8cbb-fe4bda317608.png)
+
+#### penalization scheme
+![penalty-1](https://user-images.githubusercontent.com/84615460/224712132-1d2bf953-1794-418a-bd80-cc83b5d215bb.png)
