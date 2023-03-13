@@ -1,5 +1,10 @@
 # Sparse neural network regression with variable selection (SBNN)
 
+This is a neural network regression method. 
+The method uses a neural network structure with a hidden layer and B-spline functions as node activation.
+A penalization scheme is applied to avoid overfitting and to select significant variables.
+An algorithm is used, which adds nodes to neural network whenever a tuning parameter increases.
+
 ### Data and goal
 Consider a dataset $\{(y_i, x_i) \}_{i=1}^n$ gererated from the regression model
 
@@ -26,4 +31,7 @@ $$
 R^{\lambda}(\theta) = \frac{1}{2N} \left(y_i - \mathsf{f}_{\theta}(x_i) \right)^2 + \lambda_1 \left|\beta\right|_1 + \lambda_2 \sum_{j=1}^p \left| w^j \right|_2
 $$
 
-where $w^j = (w_{1j}, \ldots, w_{mj})$ is the weight vector associated to the $j$th input.
+where $w^j = (w_{1j}, \ldots, w_{mj})$ is the weight vector associated to the $j$ th input.
+The $\lambda = (\lambda_1, \lambda_2)$ is the tuning parameter vector. 
+$\lambda_1$ penalizes the effect of nodes to output and enables neural network remove unnecessary nodes as $\lambda_1$ increases.
+On the other hands, the $\lambda_2$ penalizes the group effects of each input to nodes and remove unnecessary inputs as $\lambda_2$ increases.
