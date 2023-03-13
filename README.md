@@ -23,7 +23,7 @@ where \theta is the parameter vector including all parameters in \mathsf{f}_{\th
 The objective function is the sum of loss function and penalty function, which is given by
 
 $$
-R^{\lambda}(\theta) = \frac{1}{2N} \left(y_i - \mathsf{f}_{\theta}(x_i) \right)^2 + \lambda_1 \norm{\beta} + \lambda_2 \sum_{j=1}^p \norm{w^j}
+R^{\lambda}(\theta) = \frac{1}{2N} \left(y_i - \mathsf{f}_{\theta}(x_i) \right)^2 + \lambda_1 \left|\beta\right|_1 + \lambda_2 \sum_{j=1}^p \left| w^j \right|_2
 $$
 
-where $w_j = (w_{m1}, \ldots, w_{mp})$.
+where $w_j = (w_{1j}, \ldots, w_{mj})$.
