@@ -33,5 +33,6 @@ $$
 
 where $w^j = (w_{1j}, \ldots, w_{mj})$ is the weight vector associated to the $j$ th input.
 The $\lambda = (\lambda_1, \lambda_2)$ is the tuning parameter vector. 
-$\lambda_1$ penalizes the effect of nodes to output and enables neural network remove unnecessary nodes as $\lambda_1$ increases.
-On the other hands, the $\lambda_2$ penalizes the group effects of each input to nodes and remove unnecessary inputs as $\lambda_2$ increases.
+
+- $\lambda_1$ penalizes the effect of nodes to output and enables neural network remove unnecessary nodes as $\lambda_1$ increases.
+- $\lambda_2$ penalizes the group effects of each input to nodes and remove unnecessary inputs as $\lambda_2$ increases.
