@@ -48,3 +48,4 @@ $$
 $$
 
 [BAF.pdf](https://github.com/Jae-Kyung/Sparse-neural-network-regression-with-variable-selection/files/10957660/BAF.pdf)
+[penalty.pdf](https://github.com/Jae-Kyung/Sparse-neural-network-regression-with-variable-selection/files/10957678/penalty.pdf)
