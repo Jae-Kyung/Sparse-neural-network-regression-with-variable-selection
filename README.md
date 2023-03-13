@@ -52,5 +52,5 @@ $$
 - B-spline activation function
 ![BAF-1](https://user-images.githubusercontent.com/84615460/224712089-2af5f480-025a-4292-8cbb-fe4bda317608.png)
 
-- penalization scheme
+- Structure and penalization scheme
 ![penalty-1](https://user-images.githubusercontent.com/84615460/224712132-1d2bf953-1794-418a-bd80-cc83b5d215bb.png)
