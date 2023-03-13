@@ -23,6 +23,7 @@ $$
 $$
 
 where \theta is the parameter vector including all parameters in \mathsf{f}_{\theta}.
+The $\sigma$ denotes B-spline activation function.
 
 ### Objective function
 The objective function is the sum of loss function and penalty function, which is given by
@@ -36,3 +37,11 @@ The $\lambda = (\lambda_1, \lambda_2)$ is the tuning parameter vector.
 
 - $\lambda_1$ penalizes the effect of nodes to output and enables neural network remove unnecessary nodes as $\lambda_1$ increases.
 - $\lambda_2$ penalizes the group effects of each input to nodes and remove unnecessary inputs as $\lambda_2$ increases.
+
+### Estimator
+The sparse B-spline neural network estimator is given by 
+
+$$
+\hat f = \mathsf{f}_{\hat \theta}, \quad \text{argmin}_{\theta} R^{\lambda}(\theta).
+$$
+
