@@ -47,5 +47,5 @@ $$
 \hat f = \mathsf{f}_{\hat \theta}, \quad \hat \theta = \text{argmin}_{\theta} R^{\lambda}(\theta).
 $$
 
-[BAF.pdf](https://github.com/Jae-Kyung/Sparse-neural-network-regression-with-variable-selection/files/10957660/BAF.pdf)
-[penalty.pdf](https://github.com/Jae-Kyung/Sparse-neural-network-regression-with-variable-selection/files/10957678/penalty.pdf)
+![BAF-1](https://user-images.githubusercontent.com/84615460/224712089-2af5f480-025a-4292-8cbb-fe4bda317608.png)
+![penalty-1](https://user-images.githubusercontent.com/84615460/224712132-1d2bf953-1794-418a-bd80-cc83b5d215bb.png)
